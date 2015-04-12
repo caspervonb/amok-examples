@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "amok index.js --client chrome --compiler browserify --verbose -- --transform reactify --fast"
+  },
+  "dependencies": {
+    "react": "0.13.1",
+    "react-bootstrap": "0.19.1"
+  },
+  "devDependencies": {
+    "browserify": "9.0.3",
+    "reactify": "1.1.0",
+    "watchify": "2.6.2"
+  }
+}
