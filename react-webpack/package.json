@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "amok index.js --client chrome --compiler webpack --verbose"
+  },
+  "dependencies": {
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.8.11",
+    "babel-core": "^5.2.16",
+    "babel-loader": "^5.0.0"
+  }
+}
