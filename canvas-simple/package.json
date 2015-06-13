@@ -1,6 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "start": "amok index.js --client chrome"
+    "start": "amok --hot --browser chrome index.js"
   }
 }

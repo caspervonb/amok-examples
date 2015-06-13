@@ -5,6 +5,6 @@ window.addEventListener('load', function() {
   React.render(<Application />, document.body);
 });
 
-window.addEventListener('source', function() {
+window.addEventListener('patch', function() {
   React.render(<Application />, document.body);
 });

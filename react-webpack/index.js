@@ -8,6 +8,6 @@ class Hello extends React.Component {
 
 React.render(<Hello />, document.body);
 
-window.addEventListener('source', () => {
+window.addEventListener('patch', () => {
   React.render(<Hello />, document.body);
 });

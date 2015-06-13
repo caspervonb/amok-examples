@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "amok index.js --client chrome --compiler browserify --verbose -- --transform reactify --fast"
+    "start": "amok --hot --browser chrome --compiler browserify index.js -- --transform reactify --fast"
   },
   "dependencies": {
     "react": "0.13.1",

@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "amok index.js --client chrome --compiler webpack --verbose"
+    "start": "amok --hot --browser chrome --compiler webpack index.js"
   },
   "dependencies": {
     "react": "^0.13.1"
