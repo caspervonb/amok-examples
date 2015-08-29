@@ -1,3 +1,5 @@
+# Warning: Somewhat out of date
+
 # Amok Examples
 A collection of example applications used
 to showcase and test live code editing with [amok](https://github.com/caspervonb/amok/).
